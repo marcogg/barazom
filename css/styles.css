@@ -1,0 +1,190 @@
+@media screen and (min-width: 992px){
+	h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #fff082;
+	}
+	
+	.logo-barazom{
+		max-width: 35vw;
+	}
+}
+
+@media screen and (max-width: 992px){
+	h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.7rem;
+	font-weight: 700;
+	color: #fff082;
+	}
+}
+
+
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: 
+}
+
+a{
+	color:orange;
+	font-weight: 500;
+}
+
+a:hover{
+	color: #BD5400;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.topics{
+	background-color:white;
+	color:gray;
+	padding: 5%;
+	border-radius: 10px 10px 0 0;
+	border:none;
+	outline:none;
+}
+
+.topics:hover{
+	background-color:#ff7600;
+	color:#FFD7B4;
+	padding: 5%;
+	transition: all 0.5s;
+	border:none;
+	outline:none;
+}
+
+.topics:focus{
+	background-color:#ff7600;
+	color:#FFD7B4;
+	padding: 5%;
+	transition: all 0.5s;
+	border:none;
+	outline:none;
+}
+.background{
+	
+	padding: 10%;
+	background-color: #ffae00;
+	text-align: center;
+	height: 100vh;
+	animation:bgColor 3s;
+  	-moz-animation:bgColor 3s infinite; /* Firefox */
+	-webkit-animation:bgColor 3s infinite; /* Safari and Chrome */
+  
+} 
+
+.background-100{
+	
+	padding: 10%;
+	background-color: #ffae00;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	animation:bgColor 3s;
+  	-moz-animation:bgColor 3s infinite; /* Firefox */
+	-webkit-animation:bgColor 3s infinite; /* Safari and Chrome */
+  
+} 
+
+@-moz-keyframes bgColor /* Firefox */
+	{
+	0%   {background:#ffae00;}
+	50%  {background:#FF7E00;}
+	100%   {background:#ffae00;}
+	}
+ 
+    @-webkit-keyframes bgColor /* Firefox */
+	{
+	0%   {background:#ffae00;}
+	50%  {background:#FF7E00;}
+	100%   {background:#ffae00;}
+	}
+
+ 
+
+#tema{
+	background-color: white;
+	border-radius: 20px 0 0 20px;
+	padding: 3%;
+	height: 100%;
+	outline:none;
+}
+
+#escogerTema{
+	width: 100%;
+	height: 100%;
+	background-color: #1f4476;
+	border:none;
+	border-radius:0 20px 20px 0;
+	color: #ADC5F5;
+	font-weight: bold;
+	font-size: 1.5rem;
+	outline:none;
+	font-family: 'Ubuntu', sanas sans-serif;
+
+	}
+
+#escogerTema:hover{
+	width: 100%;
+	height: 100%;
+	background-color: #0765E3;
+	border:none;
+	border-radius:0 20px 20px 0;
+	color: #0F285B;
+	font-weight: bold;
+	font-size: 1.5rem;
+	font-family: 'Ubuntu', sanas sans-serif;
+
+	}
+
+@media screen and (max-width: 992px){
+	.background{
+		padding: 5%;
+		background-color: #ffae00;
+		text-align: center;
+		height: 100vh;
+	}
+
+	#escogerTema{
+		width: 100%;
+		height: 100%;
+		background-color: #1f4476;
+		border:none;
+		border-radius:0 20px 20px 0;
+		color: #ADC5F5;
+		font-weight: bold;
+		font-size: 1rem;
+		outline:none;
+
+		}
+	#escogerTema:hover{
+		width: 100%;
+		height: 100%;
+		background-color: #0765E3;
+		border:none;
+		border-radius:0 20px 20px 0;
+		color: #0F285B;
+		font-weight: bold;
+		font-size: 1rem;
+
+	}
+	#tema{
+	background-color: white;
+	border-radius: 20px 0 0 20px;
+	padding: 3%;
+	min-height: 100%;
+	outline:none;
+	}
+
+	.logo-barazom{
+		max-width: 55vw;
+	}
+}
+
+.footer{
+	padding: 1%;
+}

@@ -1,0 +1,92 @@
+[23-Sep-2019 23:43:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function has_session() on null in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php:514
+Stack trace:
+#0 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(286): WC_Gateway_PPEC_Cart_Handler->ensure_session(Object(WP))
+#1 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dimarcog/public_html/barazom.com/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp.php(750): do_action_ref_array('wp', Array)
+#4 /home/dimarcog/public_html/barazom.com/wp-includes/functions.php(1105): WP->main('')
+#5 /home/dimarcog/public_html/barazom.com/wp-blog-header.php(16): wp()
+#6 /home/dimarcog/public_html/barazom.com/index.php(17): require('/home/dimarcog/...')
+#7 {main}
+  thrown in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php on line 514
+[23-Dec-2019 05:31:59 UTC] PHP Warning:  Error while sending QUERY packet. PID=17251 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[19-Jan-2020 09:33:20 UTC] PHP Warning:  Error while sending QUERY packet. PID=9938 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[19-Jan-2020 09:33:20 UTC] PHP Warning:  Error while sending QUERY packet. PID=9931 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[19-Jan-2020 09:35:22 UTC] PHP Warning:  Error while sending QUERY packet. PID=11772 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[22-Jan-2020 22:09:56 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-query.php on line 2197
+[22-Jan-2020 22:09:56 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/canonical.php on line 217
+[23-Jan-2020 03:57:34 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-query.php on line 2197
+[23-Jan-2020 03:57:34 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/canonical.php on line 217
+[23-Jan-2020 06:51:38 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-query.php on line 2197
+[23-Jan-2020 06:51:38 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/canonical.php on line 217
+[31-Jan-2020 20:08:23 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-query.php on line 2197
+[31-Jan-2020 20:08:23 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/canonical.php on line 217
+[01-Feb-2020 14:19:30 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-query.php on line 2197
+[01-Feb-2020 14:19:30 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/canonical.php on line 217
+[04-Feb-2020 21:58:06 UTC] PHP Warning:  Error while sending QUERY packet. PID=6149 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[06-Feb-2020 13:13:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function has_session() on null in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php:514
+Stack trace:
+#0 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(286): WC_Gateway_PPEC_Cart_Handler->ensure_session(Object(WP))
+#1 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dimarcog/public_html/barazom.com/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp.php(750): do_action_ref_array('wp', Array)
+#4 /home/dimarcog/public_html/barazom.com/wp-includes/functions.php(1105): WP->main('')
+#5 /home/dimarcog/public_html/barazom.com/wp-blog-header.php(16): wp()
+#6 /home/dimarcog/public_html/barazom.com/index.php(17): require('/home/dimarcog/...')
+#7 {main}
+  thrown in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php on line 514
+[10-Feb-2020 11:09:27 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-query.php on line 2197
+[10-Feb-2020 11:09:27 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/canonical.php on line 217
+[09-Mar-2020 22:25:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=14255 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[09-Mar-2020 22:25:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=14133 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[30-Apr-2020 10:25:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function has_session() on null in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php:514
+Stack trace:
+#0 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(286): WC_Gateway_PPEC_Cart_Handler->ensure_session(Object(WP))
+#1 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dimarcog/public_html/barazom.com/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp.php(750): do_action_ref_array('wp', Array)
+#4 /home/dimarcog/public_html/barazom.com/wp-includes/functions.php(1105): WP->main('')
+#5 /home/dimarcog/public_html/barazom.com/wp-blog-header.php(16): wp()
+#6 /home/dimarcog/public_html/barazom.com/index.php(17): require('/home/dimarcog/...')
+#7 {main}
+  thrown in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php on line 514
+[11-May-2020 20:20:38 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-query.php on line 2193
+[11-May-2020 20:20:38 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/dimarcog/public_html/barazom.com/wp-includes/canonical.php on line 217
+[14-May-2020 14:32:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function has_session() on null in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php:514
+Stack trace:
+#0 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(286): WC_Gateway_PPEC_Cart_Handler->ensure_session(Object(WP))
+#1 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dimarcog/public_html/barazom.com/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp.php(750): do_action_ref_array('wp', Array)
+#4 /home/dimarcog/public_html/barazom.com/wp-includes/functions.php(1105): WP->main('')
+#5 /home/dimarcog/public_html/barazom.com/wp-blog-header.php(16): wp()
+#6 /home/dimarcog/public_html/barazom.com/index.php(17): require('/home/dimarcog/...')
+#7 {main}
+  thrown in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php on line 514
+[14-May-2020 14:32:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function has_session() on null in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php:514
+Stack trace:
+#0 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(286): WC_Gateway_PPEC_Cart_Handler->ensure_session(Object(WP))
+#1 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dimarcog/public_html/barazom.com/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /home/dimarcog/public_html/barazom.com/wp-includes/class-wp.php(750): do_action_ref_array('wp', Array)
+#4 /home/dimarcog/public_html/barazom.com/wp-includes/functions.php(1105): WP->main('')
+#5 /home/dimarcog/public_html/barazom.com/wp-blog-header.php(16): wp()
+#6 /home/dimarcog/public_html/barazom.com/index.php(17): require('/home/dimarcog/...')
+#7 {main}
+  thrown in /home/dimarcog/public_html/barazom.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-cart-handler.php on line 514
+[21-May-2020 09:54:50 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ')' in /home/dimarcog/public_html/barazom.com/wp-content/plugins/jetpack/_inc/lib/class.media.php on line 240
+[09-Jun-2020 15:29:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=29748 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[09-Jun-2020 15:29:28 UTC] PHP Warning:  Error while sending QUERY packet. PID=30432 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[09-Jun-2020 15:29:29 UTC] PHP Warning:  Error while sending QUERY packet. PID=28934 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[09-Jun-2020 15:29:48 UTC] PHP Warning:  Error while sending QUERY packet. PID=31545 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[09-Jun-2020 15:29:58 UTC] PHP Warning:  Error while sending QUERY packet. PID=29748 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:26:13 UTC] PHP Warning:  Error while sending QUERY packet. PID=8252 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:26:13 UTC] PHP Warning:  Error while sending QUERY packet. PID=8234 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:26:33 UTC] PHP Warning:  Error while sending QUERY packet. PID=9074 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:26:33 UTC] PHP Warning:  Error while sending QUERY packet. PID=8831 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:26:46 UTC] PHP Warning:  Error while sending QUERY packet. PID=9213 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:27:07 UTC] PHP Warning:  Error while sending QUERY packet. PID=9486 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:27:07 UTC] PHP Warning:  Error while sending QUERY packet. PID=9366 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:27:18 UTC] PHP Warning:  Error while sending QUERY packet. PID=9800 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[10-Jun-2020 20:27:18 UTC] PHP Warning:  Error while sending QUERY packet. PID=9943 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
+[14-Jun-2020 22:50:18 UTC] PHP Warning:  Error while sending QUERY packet. PID=20657 in /home/dimarcog/public_html/barazom.com/wp-includes/wp-db.php on line 2007
